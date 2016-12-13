@@ -2,7 +2,7 @@ set number         " shows line number in the editor
 set autoindent
 set smartindent
 set cindent
-set shiftwidth=4
+set shiftwidth=2
 syntax enable      " enables pretty colour codung
 
 set ruler          " show the cursor position all the time
