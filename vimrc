@@ -13,5 +13,5 @@ set textwidth=79   " sets textwidth to 79
 set colorcolumn=+1 " sets visual guide at column 80 in my case 
 set wrap
 
-
-
+set incsearch      " show match as search proceeds
+set hlsearch       " search higlighting
