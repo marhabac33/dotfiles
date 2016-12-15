@@ -11,7 +11,7 @@ I refer to [ThoughtBot's
 #### zshrc
 
 I have recently install zsh and
-[oh-my-zsh](https://github.com/marhabac33/dotfiles.git). I refered to
+[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). I refered to
 [ThoughtBot's
 zshrc](https://github.com/thoughtbot/dotfiles/tree/master/zsh/configs) for
 some configuration
