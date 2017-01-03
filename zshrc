@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # -----------------------------------------------------------------------------
 
 # Prompt configuration
-PROMPT='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}%{$fg[yellow]%} %~%{$reset_color%}%%'
+PROMPT='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}%{$fg[yellow]%} %~%{$reset_color%}%% '
 
 # Keybinding to use arrow for history navigation
 
