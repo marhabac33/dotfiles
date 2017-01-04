@@ -11,6 +11,9 @@ I refer to [ThoughtBot's
 I am using [VundleVim](https://github.com/VundleVim/Vundle.vim) to manage my
 vim plugins
 
+List of plugins I have installed
+  - Vim-airline
+
 #### zshrc
 
 I have recently install zsh and
