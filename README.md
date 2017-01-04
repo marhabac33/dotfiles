@@ -8,6 +8,9 @@ the configuration currently is very basic and minimal
 I refer to [ThoughtBot's
 .vimrc](https://github.com/thoughtbot/dotfiles/blob/master/vimrc) file alot.
 
+I am using [VundleVim](https://github.com/VundleVim/Vundle.vim) to manage my
+vim plugins
+
 #### zshrc
 
 I have recently install zsh and
