@@ -11,7 +11,7 @@ I refer to [ThoughtBot's
 I am using [VundleVim](https://github.com/VundleVim/Vundle.vim) to manage my
 vim plugins
 
-Setup Vunlde
+##### Setup Vunlde
 ```
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
@@ -27,5 +27,5 @@ I have recently install zsh and
 zshrc](https://github.com/thoughtbot/dotfiles/tree/master/zsh/configs) for
 some configuration
 
-### tmux
+#### tmux
 Nothing major currently. Just a line to be able to use airline in tmux
