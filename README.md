@@ -11,6 +11,11 @@ I refer to [ThoughtBot's
 I am using [VundleVim](https://github.com/VundleVim/Vundle.vim) to manage my
 vim plugins
 
+Setup Vunlde
+```
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
 List of plugins I have installed
   - Vim-airline
 
@@ -21,3 +26,6 @@ I have recently install zsh and
 [ThoughtBot's
 zshrc](https://github.com/thoughtbot/dotfiles/tree/master/zsh/configs) for
 some configuration
+
+### tmux
+Nothing major currently. Just a line to be able to use airline in tmux
