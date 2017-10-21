@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=~/oh-my-zsh
+export ZSH=/Users/marhaba/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,9 +51,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-extras git-flow git-prompt github)
 
 source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -81,15 +82,13 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # -----------------------------------------------------------------------------
 #                        My Custom Configuration
 # -----------------------------------------------------------------------------
 
 # Prompt configuration
-PROMPT='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}%{$fg[yellow]%} %~%{$reset_color%}%% '
-
+PROMPT='%{$fg[blue]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%% '
 # Keybinding to use arrow for history navigation
 
 # Below are binding from zsh wiki
@@ -112,3 +111,4 @@ bindkey "^Y" accept-and-hold
 bindkey "^N" insert-last-word
 bindkey "^Q" push-line-or-edit
 bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
